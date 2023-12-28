@@ -27,9 +27,9 @@ def pdf_to_json(pdf_path, json_path):
         json_file.write(json.dumps(data, indent=2))
 
 # Example usage
-pdf_path = 'path/to/your/file.pdf'
-excel_path = 'path/to/your/output.xlsx'
-json_path = 'path/to/your/output.json'
+pdf_path = '2352798454.pdf'
+excel_path = 'output.xlsx'
+json_path = 'output.json'
 
 pdf_to_excel(pdf_path, excel_path)
 pdf_to_json(pdf_path, json_path)
